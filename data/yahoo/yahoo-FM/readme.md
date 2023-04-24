@@ -1,0 +1,1 @@
+In coat-FM，we first generate data for MF and train the MF models for the item embedding to cluster items for FM, which needs item features to train the model. The embedding of MF is provided. To generate data with categories, first run yahoo-MF.ipynb, and then run yahoo-FM.ipynb.
