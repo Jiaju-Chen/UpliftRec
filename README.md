@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is the official code of "Causal Effect Estimation for User Interest Exploration on Recommender Systems" (AAAI'24).
+This is the official code of "Treatment Effect Estimation for User Interest Exploration on Recommender Systems" (AAAI'24).
 
 ## Dataset
 
