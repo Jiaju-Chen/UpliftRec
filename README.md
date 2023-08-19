@@ -53,7 +53,16 @@ python -u main.py --dataset=kuai --similar_user_num=12288 --similar_user_num_pro
 
 We train UpliftRec on GPU. The embedding files are also on GPU.
 
+## Hyperparameter Searching
 
+We list several critical hyperparameters and their ranges: 
+1. similar_user_num (10, sample_num)
+2. similar_user_num_propensity (10, sample_num)
+3. treat_clip_num \[0.5, 0.6, 0.8, 1\] * list_len
+4. MTEF_null (0.01, 0.5)
+5. alpha_MTEF (0.01,0.5)
+6. ADRF_null \[0.01,0.1\]
+7. eps \[0,1,2\]
 
 
 ## Requirements
