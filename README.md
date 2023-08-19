@@ -55,6 +55,11 @@ We train UpliftRec on GPU. The embedding files are also on GPU.
 
 ## Hyperparameter Searching
 
+    | 水果        | 价格    |  数量  |
+    | --------   | -----:   | :----: |
+    | 香蕉        | $1      |   5    |
+    | 苹果        | $1      |   6    |
+    | 草莓        | $1      |   7    |
 We list several critical hyperparameters and their ranges: 
 1. similar_user_num (10, sample_num)
 2. similar_user_num_propensity (10, sample_num)
