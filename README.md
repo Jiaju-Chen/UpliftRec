@@ -3,15 +3,15 @@
 
 ## Overview
 
-This is the official code of "Treatment Effect Estimation for User Interest Exploration on Recommender Systems" (AAAI'24).
+This is the official code of "Treatment Effect Estimation for User Interest Exploration on Recommender Systems" (SIGIR'24).
 
 ## Dataset
 
-We use three datasets: Yahoo!R3, Coat, KuaiRec. The former two datasets are accessible in our code while KuaiRec is supposed to download from https://kuairec.com/ due to its size. We process the data respectively for three backend models and UpliftRec in the "data" directory. Just run the jupyter notebook code to generate processed data.
+We use three datasets: Yahoo!R3, Coat, and KuaiRec. The former two datasets are accessible in our code while KuaiRec is supposed to download from https://kuairec.com/ due to its size. We process the data respectively for three backend models and UpliftRec in the "data" directory. Just run the jupyter notebook code to generate processed data.
 
 ## Backend Models
 
-We choose MF, FM and LightGCN to be our backend models. Specifically, we choose MF for Yahoo!R3 and KuaiRec, and FM for Coat. The code of backend models is in the "code" directory. We save the embedding files of backend models. We also save the embedding file for sub-users for UpliftRec. You can use them directly to train UpliftRec. 
+We choose MF, FM, and LightGCN to be our backend models. Specifically, we choose MF for Yahoo!R3 and KuaiRec, and FM for Coat. The code of the backend models is in the "code" directory. We save the embedding files of backend models. We also save the embedding file for sub-users for UpliftRec. You can use them directly to train UpliftRec. 
 
 FYI, please use the following command to train optimal backend models:
 
@@ -59,4 +59,4 @@ We train UpliftRec on GPU. The embedding files are also on GPU.
 - python == 3.8.13
 - pytorch == 1.7.1+cuda9.1
 
-UpliftRec does not rely on specific python and pytorch version.
+UpliftRec does not rely on specific Python and Pytorch versions.
